@@ -5,9 +5,19 @@
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/orman-20120316.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" scope="TEST" name="Maven: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="library" name="Maven: junit:junit:4.10" level="project" />
     <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.1" level="project" />
@@ -148,7 +158,7 @@
     <orderEntry type="library" name="Maven: com.netflix.hystrix:hystrix-servo-metrics-publisher:1.3.9" level="project" />
     <orderEntry type="library" name="Maven: org.apache.thrift:libthrift:0.9.1" level="project" />
     <orderEntry type="library" name="Maven: com.expedia.www.platform:platform-context:0.9.15" level="project" />
-    <orderEntry type="library" name="Maven: com.expedia.www.platform:platform-servlet:0.0.30" level="project" />
+    <orderEntry type="library" name="Maven: com.expedia.www.platform:platform-servlet:0.0.31" level="project" />
     <orderEntry type="library" name="Maven: com.expedia.www.platform:platform-botanalyzer:1.4" level="project" />
     <orderEntry type="library" name="Maven: com.amazonaws:aws-java-sdk:1.5.4" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.8.9" level="project" />
@@ -178,15 +188,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: xpp3:xpp3_min:1.1.4c" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.easymock:easymock:3.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:3.2.1.RELEASE" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/orman-20120316.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
   </component>
 </module>
 
